@@ -5,7 +5,7 @@ public class EmployeePayrollSystemInteractive{
             PayrollProcessor processor = new PayrollProcessor();
             System.out.print("Enter number of employees: ");
             int n = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
             for (int i = 0; i < n; i++) {
                 System.out.println("\nEnter details for Employee " + (i + 1));
                 System.out.print("Name: ");
